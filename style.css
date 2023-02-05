@@ -12,7 +12,7 @@ html {
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 /* Start: Loader-1 */
@@ -83,3 +83,19 @@ html {
     }
 }
 /* End: Loader-1 */
+
+/* Start: Loader-2 */
+.loader-2 {
+    width: 25rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.line {
+    width: 1.5rem;
+    height: 5rem;
+    background-color: #4169e1;
+    border-radius: 1rem;
+}
+/* End: Loader-2 */
